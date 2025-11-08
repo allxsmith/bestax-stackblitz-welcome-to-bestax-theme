@@ -1,23 +1,11 @@
-import { Button, Card, Hero } from '@allxsmith/bestax-bulma';
-import 'bulma/css/bulma.min.css';
+import { Theme, Button } from '@allxsmith/bestax-bulma';
 
 function App() {
   return (
-    <Hero color="primary">
-      <Hero.Body>
-        <Card>
-          <Card.Header>
-            <Card.Header.Title>Welcome to bestax-bulma!</Card.Header.Title>
-          </Card.Header>
-          <Card.Content>
-            <p>Modern React components for Bulma CSS v1</p>
-            <Button color="success">Get Started</Button>
-          </Card.Content>
-        </Card>
-      </Hero.Body>
-    </Hero>
+    <Theme primaryH="280" primaryS="100%" primaryL="45%">
+      <Button color="primary">Themed Button</Button>
+    </Theme>
   );
 }
-
 
 export default App
