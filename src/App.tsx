@@ -1,4 +1,5 @@
 import { Theme, Button } from '@allxsmith/bestax-bulma';
+import 'bulma/css/bulma.min.css';
 
 function App() {
   return (
